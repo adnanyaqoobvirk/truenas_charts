@@ -1,0 +1,31 @@
+annotations:
+  truecharts.org/SCALE-support: "true"
+  truecharts.org/catagories: |
+    - Cloud
+    - Productivity
+    - Network-Web
+apiVersion: v2
+appVersion: "latest"
+dependencies:
+  - name: common
+    repository: https://library-charts.truecharts.org
+    version: 12.9.5
+deprecated: false
+description: A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...
+home: https://github.com/adnanyaqoobvirk/truenas_charts/incubator/filestash
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/filestash.png
+keywords:
+  - filestash
+  - Cloud
+  - Productivity
+  - Network-Web
+kubeVersion: ">=1.16.0-0"
+maintainers:
+  - name: adnanyaqoobvirk
+    url: https://github.com/adnanyaqoobvirk/truenas_charts
+name: filestash
+sources:
+  - https://github.com/adnanyaqoobvirk/truenas_charts/tree/master/charts/incubator/filestash
+  - https://www.filestash.app/
+type: application
+version: 1.0.0

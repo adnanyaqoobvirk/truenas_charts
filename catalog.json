@@ -1,0 +1,64 @@
+{
+    "charts": {},
+    "test": {},
+    "operators": {},
+    "dependency": {},
+    "incubator": {
+        "filestash": {
+            "app_readme": "<p>A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...</p>",
+            "categories": [
+                "Cloud",
+                "Productivity",
+                "Network-Web"
+            ],
+            "description": "A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/adnanyaqoobvirk/truenas_charts/incubator/filestash",
+            "location": "/home/runner/work/catalog/truenas_charts/incubator/filestash",
+            "latest_version": "1.0.0",
+            "latest_app_version": "latest",
+            "latest_human_version": "latest_1.0.0",
+            "last_update": "2023-05-28 17:53:08",
+            "name": "filestash",
+            "recommended": false,
+            "title": "Filestash",
+            "maintainers": [
+                {
+                    "name": "adnanyaqoobvirk",
+                    "url": "https://github.com/adnanyaqoobvirk/truenas_charts"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/filestash.png"
+        },
+        "wallabag": {
+            "app_readme": "<p>wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.</p>",
+            "categories": [
+                "Cloud",
+                "Productivity",
+                "Network-Web"
+            ],
+            "description": "wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/adnanyaqoobvirk/truenas_charts/incubator/wallabag",
+            "location": "/home/runner/work/catalog/truenas_charts/incubator/wallabag",
+            "latest_version": "1.0.0",
+            "latest_app_version": "latest",
+            "latest_human_version": "latest_1.0.0",
+            "last_update": "2023-05-28 17:53:08",
+            "name": "wallabag",
+            "recommended": false,
+            "title": "Wallabag",
+            "maintainers": [
+                {
+                    "name": "adnanyaqoobvirk",
+                    "url": "https://github.com/adnanyaqoobvirk/truenas_charts"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Logo-wallabag-svg.svg"
+        }
+    }
+}
