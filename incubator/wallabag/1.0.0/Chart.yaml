@@ -23,7 +23,7 @@ kubeVersion: ">=1.16.0-0"
 maintainers:
   - name: adnanyaqoobvirk
     url: https://github.com/adnanyaqoobvirk/truenas_charts
-name: filestash
+name: wallabag
 sources:
   - https://github.com/adnanyaqoobvirk/truenas_charts/tree/master/charts/incubator/wallabag
   - https://www.wallabag.it/
