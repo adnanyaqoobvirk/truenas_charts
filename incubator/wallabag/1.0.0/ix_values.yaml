@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: wallabag/wallabag
-  tag: latest@sha256:ec22b5e8b2fce0920796be06f89e395e23db96f818fd3730a876ea827f298b33
+  tag: 2.5.4@sha256:0d6602bbca0b0393f04f491788031e43b075e57b3eaec1873b17a136b662edaa
 persistence:
   appdata:
     enabled: true
@@ -9,6 +9,9 @@ persistence:
   appimages:
     enabled: true
     mountPath: "/var/www/wallabag/web/assets/images"
+  appconfig:
+    enabled: true
+    mountPath: "/var/www/wallabag/app/config"
   phpconfig:
     enabled: true
     mountPath: "/etc/php81/php.ini"
@@ -18,6 +21,7 @@ persistence:
 securityContext:
   container:
     readOnlyRootFilesystem: false
+    runAsNonRoot: false
 service:
   main:
     ports:
