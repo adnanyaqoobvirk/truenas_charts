@@ -281,7 +281,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 8334
+                              default: 80
                               required: true
   - variable: serviceexpert
     group: Networking and Services

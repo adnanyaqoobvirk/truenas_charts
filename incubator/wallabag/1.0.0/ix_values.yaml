@@ -17,9 +17,9 @@ persistence:
     mountPath: "/etc/php81/php-fpm.conf"
 securityContext:
   container:
-    runAsNonRoot: true
-    runAsUser: 568
-    runAsGroup: 568
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
 service:
   main:
     ports:
