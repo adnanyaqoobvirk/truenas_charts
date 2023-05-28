@@ -1,0 +1,25 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: wallabag/wallabag
+  tag: latest@sha256:ec22b5e8b2fce0920796be06f89e395e23db96f818fd3730a876ea827f298b33
+persistence:
+  appdata:
+    enabled: true
+    mountPath: "/var/www/wallabag/data"
+  appimages:
+    enabled: true
+    mountPath: "/var/www/wallabag/web/assets/images"
+  phpconfig:
+    enabled: true
+    mountPath: "/etc/php81/php.ini"
+  fpmconfig:
+    enabled: true
+    mountPath: "/etc/php81/php-fpm.conf"
+service:
+  main:
+    ports:
+      main:
+        port: 80
+portal:
+  open:
+    enabled: true

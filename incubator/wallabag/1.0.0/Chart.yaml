@@ -1,0 +1,31 @@
+annotations:
+  truecharts.org/SCALE-support: "true"
+  truecharts.org/catagories: |
+    - Cloud
+    - Productivity
+    - Network-Web
+apiVersion: v2
+appVersion: "latest"
+dependencies:
+  - name: common
+    repository: https://library-charts.truecharts.org
+    version: 12.9.5
+deprecated: false
+description: wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.
+home: https://github.com/adnanyaqoobvirk/truenas_charts/incubator/wallabag
+icon: https://upload.wikimedia.org/wikipedia/commons/b/b8/Logo-wallabag-svg.svg
+keywords:
+  - wallabag
+  - Cloud
+  - Productivity
+  - Network-Web
+kubeVersion: ">=1.16.0-0"
+maintainers:
+  - name: adnanyaqoobvirk
+    url: https://github.com/adnanyaqoobvirk/truenas_charts
+name: filestash
+sources:
+  - https://github.com/adnanyaqoobvirk/truenas_charts/tree/master/charts/incubator/wallabag
+  - https://www.wallabag.it/
+type: application
+version: 1.0.0
