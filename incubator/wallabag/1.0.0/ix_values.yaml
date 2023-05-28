@@ -9,9 +9,6 @@ persistence:
   appimages:
     enabled: true
     mountPath: "/var/www/wallabag/web/assets/images"
-  appconfig:
-    enabled: true
-    mountPath: "/var/www/wallabag/app/config"
   phpconfig:
     enabled: true
     mountPath: "/etc/php81/php.ini"
