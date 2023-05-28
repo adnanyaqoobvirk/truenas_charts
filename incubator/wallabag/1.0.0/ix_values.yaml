@@ -15,6 +15,9 @@ persistence:
   fpmconfig:
     enabled: true
     mountPath: "/etc/php81/php-fpm.conf"
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
 securityContext:
   container:
     readOnlyRootFilesystem: false
