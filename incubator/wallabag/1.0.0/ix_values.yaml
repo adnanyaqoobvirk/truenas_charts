@@ -2,19 +2,6 @@ image:
   pullPolicy: IfNotPresent
   repository: wallabag/wallabag
   tag: 2.5.4@sha256:0d6602bbca0b0393f04f491788031e43b075e57b3eaec1873b17a136b662edaa
-persistence:
-  appdata:
-    enabled: true
-    mountPath: "/var/www/wallabag/data"
-  appimages:
-    enabled: true
-    mountPath: "/var/www/wallabag/web/assets/images"
-  phpconfig:
-    enabled: true
-    mountPath: "/etc/php81/php.ini"
-  fpmconfig:
-    enabled: true
-    mountPath: "/etc/php81/php-fpm.conf"
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0
