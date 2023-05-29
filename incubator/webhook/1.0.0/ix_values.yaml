@@ -9,6 +9,18 @@ persistence:
   cache:
     enabled: true
     mountPath: "/cache"
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: tcp
+            startup:
+              type: tcp
+            readiness:
+              type: tcp
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0
