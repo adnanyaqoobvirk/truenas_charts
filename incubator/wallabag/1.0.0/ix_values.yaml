@@ -6,6 +6,15 @@ persistence:
   appdata:
     enabled: true
     mountPath: "/var/www/wallabag/data"
+  appimages:
+    enabled: true
+    mountPath: "/var/www/wallabag/web/assets/images"
+  phpconfig:
+    enabled: true
+    mountPath: "/etc/php81/php.ini"
+  fpmconfig:
+    enabled: true
+    mountPath: "/etc/php81/php-fpm.conf"
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0
