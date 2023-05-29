@@ -59,6 +59,34 @@
             ],
             "tags": [],
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Logo-wallabag-svg.svg"
+        },
+        "webhook": {
+            "app_readme": "<p>webhook is a lightweight configurable tool written in Go, that allows you to easily create HTTP endpoints (hooks) on your server, which you can use to execute configured commands.</p>",
+            "categories": [
+                "Cloud",
+                "Productivity",
+                "Network-Web"
+            ],
+            "description": "webhook is a lightweight configurable tool written in Go, that allows you to easily create HTTP endpoints (hooks) on your server, which you can use to execute configured commands.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/adnanyaqoobvirk/truenas_charts/incubator/webhook",
+            "location": "/home/runner/work/catalog/catalog/incubator/webhook",
+            "latest_version": "1.0.0",
+            "latest_app_version": "latest",
+            "latest_human_version": "latest_1.0.0",
+            "last_update": "2023-05-29 17:53:08",
+            "name": "webhook",
+            "recommended": false,
+            "title": "Webhook",
+            "maintainers": [
+                {
+                    "name": "adnanyaqoobvirk",
+                    "url": "https://github.com/adnanyaqoobvirk/truenas_charts"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://raw.githubusercontent.com/adnanh/webhook/development/docs/logo/logo-128x128.png"
         }
     }
 }
