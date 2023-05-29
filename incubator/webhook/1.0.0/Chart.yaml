@@ -1,0 +1,30 @@
+annotations:
+  truecharts.org/SCALE-support: "true"
+  truecharts.org/catagories: |
+    - Cloud
+    - Productivity
+    - Network-Web
+apiVersion: v2
+appVersion: "latest"
+dependencies:
+  - name: common
+    repository: https://library-charts.truecharts.org
+    version: 12.9.5
+deprecated: false
+description: webhook is a lightweight configurable tool written in Go, that allows you to easily create HTTP endpoints (hooks) on your server, which you can use to execute configured commands.
+home: https://github.com/adnanyaqoobvirk/truenas_charts/incubator/webhook
+icon: https://raw.githubusercontent.com/adnanh/webhook/development/docs/logo/logo-128x128.png
+keywords:
+  - Webhook
+  - Cloud
+  - Productivity
+  - Network-Web
+kubeVersion: ">=1.16.0-0"
+maintainers:
+  - name: adnanyaqoobvirk
+    url: https://github.com/adnanyaqoobvirk/truenas_charts
+name: webhook
+sources:
+  - https://github.com/adnanyaqoobvirk/truenas_charts/tree/master/charts/incubator/webhook
+type: application
+version: 1.0.0
