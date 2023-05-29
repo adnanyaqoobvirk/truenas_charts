@@ -17,10 +17,13 @@ workload:
           probes:
             liveness:
               type: tcp
+              port: 9000
             startup:
               type: tcp
+              port: 9000
             readiness:
               type: tcp
+              port: 9000
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0
