@@ -656,40 +656,6 @@ questions:
                   show_if: [["type", "=", "pvc"]]
                   type: string
                   default: 256Gi
-        - variable: docker
-          label: "docker.sock"
-          description: "docker socket"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type
-                schema:
-                  type: string
-                  default: hostPath
-                  enum:
-                    - value: hostPath
-                      description: Host Path
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
   - variable: persistenceList
     label: Additional App Storage
     group: Storage and Persistence
