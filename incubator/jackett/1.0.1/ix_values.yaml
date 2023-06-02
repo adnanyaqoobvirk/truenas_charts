@@ -1,5 +1,5 @@
 image:
-  repository: lscr.io/linuxserver/jackett
+  repository: hotio/jackett
   pullPolicy: Always
   tag: latest
 service:
