@@ -87,6 +87,33 @@
             ],
             "tags": [],
             "icon_url": "https://raw.githubusercontent.com/adnanh/webhook/development/docs/logo/logo-128x128.png"
+        },
+        "jackett": {
+            "app_readme": "<p>API Support for your favorite torrent trackers.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jackett\">https://truecharts.org/charts/stable/jackett</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "media",
+                "test"
+            ],
+            "description": "API Support for your favorite torrent trackers.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/adnanyaqoobvirk/truenas_charts/incubator/jackett",
+            "location": "/home/runner/work/catalog/catalog/incubator/jackett",
+            "latest_version": "1.0.0",
+            "latest_app_version": "latest",
+            "latest_human_version": "latest_1.0.0",
+            "last_update": "2023-06-02 03:36:59",
+            "name": "jackett",
+            "recommended": false,
+            "title": "Jackett",
+            "maintainers": [
+                {
+                    "name": "adnanyaqoobvirk",
+                    "url": "https://github.com/adnanyaqoobvirk/truenas_charts"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png"
         }
     }
 }
