@@ -9,7 +9,7 @@ appVersion: "latest"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 12.9.5
+    version: 14.0.1
 deprecated: false
 description: wallabag is a self hostable application for saving web pages, Save and classify articles. Read them later. Freely.
 home: https://github.com/adnanyaqoobvirk/truenas_charts/incubator/wallabag
