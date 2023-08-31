@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: wallabag/wallabag
-  tag: 2.5.4@sha256:0d6602bbca0b0393f04f491788031e43b075e57b3eaec1873b17a136b662edaa
+  tag: 2.6.5@sha256:0bd39342debda9a90500f57975aab89780d3048fcfecf9260caf4e171a7ec889
 persistence:
   appdata:
     enabled: true

@@ -1,7 +1,7 @@
 image:
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   repository: tccr.io/truecharts/filestash
-  tag: latest@sha256:a541026ec3eaaa67cc568b4fffd006460965eb6a408a512d841d1c06213ea9eb
+  tag: latest
 persistence:
   appdata:
     enabled: true
