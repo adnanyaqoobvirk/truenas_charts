@@ -28,4 +28,4 @@ sources:
   - https://github.com/adnanyaqoobvirk/truenas_charts/tree/master/charts/incubator/filestash
   - https://www.filestash.app/
 type: application
-version: 1.0.2
+version: 1.0.3
