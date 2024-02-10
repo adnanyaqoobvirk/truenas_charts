@@ -1,6 +1,6 @@
 image:
   pullPolicy: Always
-  repository: tccr.io/truecharts/filestash
+  repository: machines/filestash
   tag: latest
 persistence:
   appdata:
