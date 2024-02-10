@@ -32,6 +32,7 @@
             "sources": [
                 "https://github.com/adnanyaqoobvirk/truenas_charts"
             ],
+            "screenshots": [],
             "tags": [],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/filestash.png"
         },
@@ -63,6 +64,7 @@
             "sources": [
                 "https://github.com/adnanyaqoobvirk/truenas_charts"
             ],
+            "screenshots": [],
             "tags": [],
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Logo-wallabag-svg.svg"
         },
@@ -94,6 +96,7 @@
             "sources": [
                 "https://github.com/adnanyaqoobvirk/truenas_charts"
             ],
+            "screenshots": [],
             "tags": [],
             "icon_url": "https://raw.githubusercontent.com/adnanh/webhook/development/docs/logo/logo-128x128.png"
         },
@@ -124,6 +127,7 @@
             "sources": [
                 "https://github.com/adnanyaqoobvirk/truenas_charts"
             ],
+            "screenshots": [],
             "tags": [],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png"
         }
