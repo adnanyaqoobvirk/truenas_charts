@@ -22,6 +22,7 @@ keywords:
 kubeVersion: ">=1.16.0-0"
 maintainers:
   - name: adnanyaqoobvirk
+    email: adnan@yaqoob.org
     url: https://github.com/adnanyaqoobvirk/truenas_charts
 name: webhook
 sources:
