@@ -1,5 +1,5 @@
 image:
-  repository: hotio/jackett
+  repository: ghcr.io/hotio/jackett
   pullPolicy: Always
   tag: latest
 service:
